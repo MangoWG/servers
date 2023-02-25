@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: orange;
+}
+.container{
+    margin-top: 100px;
+    margin-left: 10%;
+    position: absolute;
+    background-color: rgb(139, 139, 139);
+    height: 300px;
+    width: 80%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.pulsar{
+    height: 20px;
+    width: 30px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 6px;
+    border-color: black;
+}

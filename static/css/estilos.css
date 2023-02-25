@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: orange;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+}
+.menu{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.imagenmenu{
+    height: 100px;
+    width: 100px;
+    background-image: url("./../img/menu.png");
+    background-size: 100px 100px ;
+}

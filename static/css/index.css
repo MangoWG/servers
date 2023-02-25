@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: orange;
+}
+.cuestionario1{
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    left: 25%;
+    top: 200px;
+    height: 100px;
+}
+.box1{
+    height: 100%;
+    flex-basis: 50%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.texto1{
+    border: 0;
+    margin:0px;
+    height: 45px;
+    width: 300px;
+    border-radius: 40px 0px 0px 40px;
+    border-right-style: dashed;
+    text-align: center;
+    border: 7px solid orange;
+    color: orange;
+    font-size:22px ;
+    background-color: rgb(107, 107, 107,0);
+    border-right: 0px;
+    outline: none;
+}
+.texto1::placeholder{
+    color:rgba(255, 255, 199, 0.747);
+    font-size: 20;
+}
+.box2{
+    height: 100%;
+    flex-basis: 50%;
+    margin: 0px;
+    display: flex;
+
+}
+
+.texto2{
+    border: 0;
+    margin:0px;
+    height: 45px;
+    width: 300px;
+    border-radius: 0px 40px 40px 0px;
+    border-right-style: dashed;
+    text-align: center;
+    border: 7px solid orange;
+    color: yellow;
+    font-size:22px ;
+    background-color: rgb(107, 107, 107,0);
+    border-left: 0px;
+    outline: none;
+}
+.texto2::placeholder{
+    color:rgba(255, 255, 199, 0.747);
+    font-size: 20;
+}
