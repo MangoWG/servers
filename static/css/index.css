@@ -63,6 +63,6 @@ body{
     outline: none;
 }
 .texto2::placeholder{
-    color:rgba(255, 255, 199, 0.747);
+    color:rgba(255, 255, 0, 0.747);
     font-size: 20;
 }
