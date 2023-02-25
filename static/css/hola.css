@@ -7,11 +7,20 @@ body{
 .container{
     margin-top: 100px;
     margin-left: 10%;
+    padding: 30px;
     position: absolute;
     background-color: rgb(139, 139, 139);
-    height: 300px;
+    height: auto;
     width: 80%;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cajon{
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
